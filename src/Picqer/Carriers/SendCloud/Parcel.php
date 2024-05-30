@@ -93,6 +93,15 @@ class Parcel extends Model
         'requestShipment', // Special one to create new shipments
         'quantity',
         'contract',
+        'from_name',
+        'from_address_1',
+        'from_address_2',
+        'from_house_number',
+        'from_city',
+        'from_postal_code',
+        'from_country',
+        'from_telephone',
+        'from_email',
     ];
 
     protected $url = 'parcels';
