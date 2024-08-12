@@ -70,6 +70,7 @@ class Parcel extends Model
         'to_state',
         'customs_invoice_nr',
         'customs_shipment_type',
+        'customs_information',
         'parcel_items',
         'documents',
         'type',
