@@ -73,6 +73,11 @@ class Connection
         return $this->apiUrl;
     }
 
+    public function setApiUrl($apiUrl)
+    {
+        $this->apiUrl = $apiUrl;
+    }
+
     /**
      * Perform a GET request
      * @param string $url
