@@ -56,6 +56,12 @@ class SendCloud
         return new Contract($this->connection);
     }
 
+    public function servicePoints($params)
+    {
+        $this->connection->setApiUrl('https://servicepoints.sendcloud.sc/api/v2/');
+        return $this->connection->get('service-points/', $params);
+    }
+
     /**
      * SenderAddress Resource
      *
